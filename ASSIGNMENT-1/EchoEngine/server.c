@@ -16,9 +16,9 @@ int main()
 	
 
 
-	key=ftok(".",'a');
+	key=ftok("key",'a');
 	msgid=msgget(key,IPC_CREAT|0666);
-	key1=ftok(",",'a');
+	key1=ftok("key",'b');
 	msgid1=msgget(key1,IPC_CREAT|0666);
 	//printf("enter the message type to receive: ");
 	//scanf("%ld",&mq.mtype);
