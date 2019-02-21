@@ -23,7 +23,7 @@ Requests could not be raised parallely since clients are being run on multiple w
 
 Service time( in micro seconds):
 
-Sl.No | 1 client | 2 clients | 5 clients |
+S.No | 1 client | 2 clients | 5 clients |
 ------|----------|-----------|-----------|
    1  |    22    |     28    |    28     |
    2  |    24    |     26    |    23     |
